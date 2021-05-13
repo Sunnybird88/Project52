@@ -1,0 +1,61 @@
+.menu{
+    display:flex;
+    justify-content:space-between;
+    background-color:#d8bfd8;
+    font-size:25px;
+    font-family: sans-serif;
+    font-weight:400;
+    color:#000000;
+    font-family:fantasy;
+}
+.menu h2{
+    margin-left:30px;
+}
+.menu a{
+    margin-right:20px;
+}
+
+body{
+    background-color:#f5f5f5;
+    margin:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+    align-items:flex-center;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:baseline;
+}
+
+.origami{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    position:relative;
+    
+    border-radius:20px;
+    background-color:#FFFFFF
+}
+
+
+a:link{
+    color:teal;
+}
+
+a:visited{
+    color:white
+}
+
+.orgiami:hover{
+    transform: scale(1.2)
+}
+
+.bodyimg p{
+    margin-left:20px;
+}
+.bodyimg h2{
+    margin-left:20px;
+}
+
